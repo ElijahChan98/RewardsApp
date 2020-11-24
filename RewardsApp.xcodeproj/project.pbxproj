@@ -14,6 +14,12 @@
 		5D7AB8A3256CBDFA00BBE08A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D7AB8A2256CBDFA00BBE08A /* Assets.xcassets */; };
 		5D7AB8A6256CBDFA00BBE08A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D7AB8A4256CBDFA00BBE08A /* LaunchScreen.storyboard */; };
 		5D7AB8B1256CBDFA00BBE08A /* RewardsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7AB8B0256CBDFA00BBE08A /* RewardsAppTests.swift */; };
+		5D7AB8BE256CC19200BBE08A /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7AB8BD256CC19200BBE08A /* MainCoordinator.swift */; };
+		5D7AB8C0256CC1B800BBE08A /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7AB8BF256CC1B800BBE08A /* Coordinator.swift */; };
+		5D7AB8C4256CC30000BBE08A /* InitialScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7AB8C3256CC30000BBE08A /* InitialScreenViewController.swift */; };
+		5D7AB8C6256CC31800BBE08A /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7AB8C5256CC31800BBE08A /* Storyboarded.swift */; };
+		5D7AB8C8256CC8B500BBE08A /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7AB8C7256CC8B500BBE08A /* RegisterViewController.swift */; };
+		5D7AB8CA256CC8C000BBE08A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7AB8C9256CC8C000BBE08A /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +44,12 @@
 		5D7AB8AC256CBDFA00BBE08A /* RewardsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RewardsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D7AB8B0256CBDFA00BBE08A /* RewardsAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsAppTests.swift; sourceTree = "<group>"; };
 		5D7AB8B2256CBDFA00BBE08A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D7AB8BD256CC19200BBE08A /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		5D7AB8BF256CC1B800BBE08A /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		5D7AB8C3256CC30000BBE08A /* InitialScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialScreenViewController.swift; sourceTree = "<group>"; };
+		5D7AB8C5256CC31800BBE08A /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
+		5D7AB8C7256CC8B500BBE08A /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		5D7AB8C9256CC8C000BBE08A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,13 +91,12 @@
 		5D7AB898256CBDF800BBE08A /* RewardsApp */ = {
 			isa = PBXGroup;
 			children = (
-				5D7AB899256CBDF800BBE08A /* AppDelegate.swift */,
-				5D7AB89B256CBDF800BBE08A /* SceneDelegate.swift */,
-				5D7AB89D256CBDF800BBE08A /* ViewController.swift */,
+				5D7AB8C2256CC2E700BBE08A /* ViewModel */,
+				5D7AB8C1256CC2DE00BBE08A /* ViewController */,
+				5D7AB8BC256CC17200BBE08A /* Supporting Files */,
+				5D7AB8BB256CC16B00BBE08A /* Coordinator */,
 				5D7AB89F256CBDF800BBE08A /* Main.storyboard */,
-				5D7AB8A2256CBDFA00BBE08A /* Assets.xcassets */,
 				5D7AB8A4256CBDFA00BBE08A /* LaunchScreen.storyboard */,
-				5D7AB8A7256CBDFA00BBE08A /* Info.plist */,
 			);
 			path = RewardsApp;
 			sourceTree = "<group>";
@@ -97,6 +108,45 @@
 				5D7AB8B2256CBDFA00BBE08A /* Info.plist */,
 			);
 			path = RewardsAppTests;
+			sourceTree = "<group>";
+		};
+		5D7AB8BB256CC16B00BBE08A /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				5D7AB8BD256CC19200BBE08A /* MainCoordinator.swift */,
+				5D7AB8BF256CC1B800BBE08A /* Coordinator.swift */,
+				5D7AB8C5256CC31800BBE08A /* Storyboarded.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		5D7AB8BC256CC17200BBE08A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D7AB899256CBDF800BBE08A /* AppDelegate.swift */,
+				5D7AB89B256CBDF800BBE08A /* SceneDelegate.swift */,
+				5D7AB89D256CBDF800BBE08A /* ViewController.swift */,
+				5D7AB8A2256CBDFA00BBE08A /* Assets.xcassets */,
+				5D7AB8A7256CBDFA00BBE08A /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5D7AB8C1256CC2DE00BBE08A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5D7AB8C3256CC30000BBE08A /* InitialScreenViewController.swift */,
+				5D7AB8C7256CC8B500BBE08A /* RegisterViewController.swift */,
+				5D7AB8C9256CC8C000BBE08A /* LoginViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		5D7AB8C2256CC2E700BBE08A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,9 +250,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D7AB8CA256CC8C000BBE08A /* LoginViewController.swift in Sources */,
 				5D7AB89E256CBDF800BBE08A /* ViewController.swift in Sources */,
+				5D7AB8C4256CC30000BBE08A /* InitialScreenViewController.swift in Sources */,
+				5D7AB8BE256CC19200BBE08A /* MainCoordinator.swift in Sources */,
+				5D7AB8C8256CC8B500BBE08A /* RegisterViewController.swift in Sources */,
+				5D7AB8C0256CC1B800BBE08A /* Coordinator.swift in Sources */,
 				5D7AB89A256CBDF800BBE08A /* AppDelegate.swift in Sources */,
 				5D7AB89C256CBDF800BBE08A /* SceneDelegate.swift in Sources */,
+				5D7AB8C6256CC31800BBE08A /* Storyboarded.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
