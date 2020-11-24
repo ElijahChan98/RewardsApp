@@ -8,18 +8,25 @@
 
 import UIKit
 
-class InitialScreenViewController: UIViewController {
-
+class InitialScreenViewController: UIViewController, Storyboarded {
+    weak var coordinator: MainCoordinator?
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        self.navigationItem.leftBarButtonItem = nil
+        self.navigationItem.hidesBackButton = true
+    }
+    
     @IBAction func loginButtonClicked(_ sender: Any) {
+        coordinator?.login()
     }
     
     @IBAction func registerButtonClicked(_ sender: Any) {
+        coordinator?.register()
     }
     /*
     // MARK: - Navigation

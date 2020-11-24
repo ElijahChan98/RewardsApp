@@ -20,6 +20,22 @@
 		5D7AB8C6256CC31800BBE08A /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7AB8C5256CC31800BBE08A /* Storyboarded.swift */; };
 		5D7AB8C8256CC8B500BBE08A /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7AB8C7256CC8B500BBE08A /* RegisterViewController.swift */; };
 		5D7AB8CA256CC8C000BBE08A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7AB8C9256CC8C000BBE08A /* LoginViewController.swift */; };
+		5D7AB8CD256CD8AC00BBE08A /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7AB8CC256CD8AC00BBE08A /* RequestManager.swift */; };
+		5D7AB8CF256CE8C600BBE08A /* NetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7AB8CE256CE8C600BBE08A /* NetworkLayer.swift */; };
+		5D7AB8D2256CE9DF00BBE08A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7AB8D1256CE9DF00BBE08A /* User.swift */; };
+		5D7AB8D7256D06AE00BBE08A /* MockValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7AB8D6256D06AE00BBE08A /* MockValues.swift */; };
+		5D7AB8DB256D0E7200BBE08A /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7AB8DA256D0E7200BBE08A /* UITextField+Extension.swift */; };
+		5D7AB8DF256D12E800BBE08A /* RewardsAppHelperClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7AB8DE256D12E800BBE08A /* RewardsAppHelperClass.swift */; };
+		5D7AB8E1256D146A00BBE08A /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7AB8E0256D146A00BBE08A /* DashboardViewController.swift */; };
+		5D7AB8E4256D2DDA00BBE08A /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7AB8E3256D2DDA00BBE08A /* DashboardViewModel.swift */; };
+		5D7AB8E6256D31E100BBE08A /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7AB8E5256D31E100BBE08A /* RegisterViewModel.swift */; };
+		5D7AB8E8256D36F800BBE08A /* Reward.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7AB8E7256D36F800BBE08A /* Reward.swift */; };
+		5D7AB8EC256D3D7700BBE08A /* RewardsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7AB8EA256D3D7700BBE08A /* RewardsCell.swift */; };
+		5D7AB8ED256D3D7700BBE08A /* RewardsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D7AB8EB256D3D7700BBE08A /* RewardsCell.xib */; };
+		5D7AB8EF256D41D000BBE08A /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7AB8EE256D41D000BBE08A /* ImageLoader.swift */; };
+		5D7AB8F1256D475700BBE08A /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7AB8F0256D475700BBE08A /* UIViewController+Extension.swift */; };
+		5D7AB8F3256D4DD300BBE08A /* RewardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7AB8F2256D4DD300BBE08A /* RewardViewController.swift */; };
+		5D7AB8F5256D4E9800BBE08A /* RewardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7AB8F4256D4E9800BBE08A /* RewardViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +66,22 @@
 		5D7AB8C5256CC31800BBE08A /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
 		5D7AB8C7256CC8B500BBE08A /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		5D7AB8C9256CC8C000BBE08A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5D7AB8CC256CD8AC00BBE08A /* RequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
+		5D7AB8CE256CE8C600BBE08A /* NetworkLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLayer.swift; sourceTree = "<group>"; };
+		5D7AB8D1256CE9DF00BBE08A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		5D7AB8D6256D06AE00BBE08A /* MockValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockValues.swift; sourceTree = "<group>"; };
+		5D7AB8DA256D0E7200BBE08A /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
+		5D7AB8DE256D12E800BBE08A /* RewardsAppHelperClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsAppHelperClass.swift; sourceTree = "<group>"; };
+		5D7AB8E0256D146A00BBE08A /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		5D7AB8E3256D2DDA00BBE08A /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		5D7AB8E5256D31E100BBE08A /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		5D7AB8E7256D36F800BBE08A /* Reward.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reward.swift; sourceTree = "<group>"; };
+		5D7AB8EA256D3D7700BBE08A /* RewardsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsCell.swift; sourceTree = "<group>"; };
+		5D7AB8EB256D3D7700BBE08A /* RewardsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RewardsCell.xib; sourceTree = "<group>"; };
+		5D7AB8EE256D41D000BBE08A /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		5D7AB8F0256D475700BBE08A /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		5D7AB8F2256D4DD300BBE08A /* RewardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardViewController.swift; sourceTree = "<group>"; };
+		5D7AB8F4256D4E9800BBE08A /* RewardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,12 +123,17 @@
 		5D7AB898256CBDF800BBE08A /* RewardsApp */ = {
 			isa = PBXGroup;
 			children = (
-				5D7AB8C2256CC2E700BBE08A /* ViewModel */,
+				5D7AB8E9256D3D6400BBE08A /* Cells */,
+				5D7AB8E2256D2DB600BBE08A /* View Model */,
+				5D7AB8D0256CE9D500BBE08A /* Model */,
+				5D7AB8CB256CD88B00BBE08A /* Manager */,
+				5D7AB8C2256CC2E700BBE08A /* Helper Class */,
 				5D7AB8C1256CC2DE00BBE08A /* ViewController */,
 				5D7AB8BC256CC17200BBE08A /* Supporting Files */,
 				5D7AB8BB256CC16B00BBE08A /* Coordinator */,
 				5D7AB89F256CBDF800BBE08A /* Main.storyboard */,
 				5D7AB8A4256CBDFA00BBE08A /* LaunchScreen.storyboard */,
+				5D7AB8A7256CBDFA00BBE08A /* Info.plist */,
 			);
 			path = RewardsApp;
 			sourceTree = "<group>";
@@ -127,7 +164,6 @@
 				5D7AB89B256CBDF800BBE08A /* SceneDelegate.swift */,
 				5D7AB89D256CBDF800BBE08A /* ViewController.swift */,
 				5D7AB8A2256CBDFA00BBE08A /* Assets.xcassets */,
-				5D7AB8A7256CBDFA00BBE08A /* Info.plist */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,15 +174,59 @@
 				5D7AB8C3256CC30000BBE08A /* InitialScreenViewController.swift */,
 				5D7AB8C7256CC8B500BBE08A /* RegisterViewController.swift */,
 				5D7AB8C9256CC8C000BBE08A /* LoginViewController.swift */,
+				5D7AB8E0256D146A00BBE08A /* DashboardViewController.swift */,
+				5D7AB8F2256D4DD300BBE08A /* RewardViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
 		};
-		5D7AB8C2256CC2E700BBE08A /* ViewModel */ = {
+		5D7AB8C2256CC2E700BBE08A /* Helper Class */ = {
 			isa = PBXGroup;
 			children = (
+				5D7AB8DA256D0E7200BBE08A /* UITextField+Extension.swift */,
+				5D7AB8F0256D475700BBE08A /* UIViewController+Extension.swift */,
+				5D7AB8DE256D12E800BBE08A /* RewardsAppHelperClass.swift */,
 			);
-			path = ViewModel;
+			path = "Helper Class";
+			sourceTree = "<group>";
+		};
+		5D7AB8CB256CD88B00BBE08A /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				5D7AB8CC256CD8AC00BBE08A /* RequestManager.swift */,
+				5D7AB8CE256CE8C600BBE08A /* NetworkLayer.swift */,
+				5D7AB8D6256D06AE00BBE08A /* MockValues.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		5D7AB8D0256CE9D500BBE08A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5D7AB8D1256CE9DF00BBE08A /* User.swift */,
+				5D7AB8E7256D36F800BBE08A /* Reward.swift */,
+				5D7AB8EE256D41D000BBE08A /* ImageLoader.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5D7AB8E2256D2DB600BBE08A /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				5D7AB8E3256D2DDA00BBE08A /* DashboardViewModel.swift */,
+				5D7AB8E5256D31E100BBE08A /* RegisterViewModel.swift */,
+				5D7AB8F4256D4E9800BBE08A /* RewardViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		5D7AB8E9256D3D6400BBE08A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5D7AB8EA256D3D7700BBE08A /* RewardsCell.swift */,
+				5D7AB8EB256D3D7700BBE08A /* RewardsCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +310,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D7AB8ED256D3D7700BBE08A /* RewardsCell.xib in Resources */,
 				5D7AB8A6256CBDFA00BBE08A /* LaunchScreen.storyboard in Resources */,
 				5D7AB8A3256CBDFA00BBE08A /* Assets.xcassets in Resources */,
 				5D7AB8A1256CBDF800BBE08A /* Main.storyboard in Resources */,
@@ -253,12 +334,27 @@
 				5D7AB8CA256CC8C000BBE08A /* LoginViewController.swift in Sources */,
 				5D7AB89E256CBDF800BBE08A /* ViewController.swift in Sources */,
 				5D7AB8C4256CC30000BBE08A /* InitialScreenViewController.swift in Sources */,
+				5D7AB8DF256D12E800BBE08A /* RewardsAppHelperClass.swift in Sources */,
+				5D7AB8EC256D3D7700BBE08A /* RewardsCell.swift in Sources */,
 				5D7AB8BE256CC19200BBE08A /* MainCoordinator.swift in Sources */,
+				5D7AB8F3256D4DD300BBE08A /* RewardViewController.swift in Sources */,
+				5D7AB8DB256D0E7200BBE08A /* UITextField+Extension.swift in Sources */,
 				5D7AB8C8256CC8B500BBE08A /* RegisterViewController.swift in Sources */,
+				5D7AB8F5256D4E9800BBE08A /* RewardViewModel.swift in Sources */,
+				5D7AB8E6256D31E100BBE08A /* RegisterViewModel.swift in Sources */,
+				5D7AB8CF256CE8C600BBE08A /* NetworkLayer.swift in Sources */,
+				5D7AB8E4256D2DDA00BBE08A /* DashboardViewModel.swift in Sources */,
+				5D7AB8CD256CD8AC00BBE08A /* RequestManager.swift in Sources */,
+				5D7AB8F1256D475700BBE08A /* UIViewController+Extension.swift in Sources */,
 				5D7AB8C0256CC1B800BBE08A /* Coordinator.swift in Sources */,
+				5D7AB8D2256CE9DF00BBE08A /* User.swift in Sources */,
+				5D7AB8EF256D41D000BBE08A /* ImageLoader.swift in Sources */,
+				5D7AB8E8256D36F800BBE08A /* Reward.swift in Sources */,
 				5D7AB89A256CBDF800BBE08A /* AppDelegate.swift in Sources */,
+				5D7AB8D7256D06AE00BBE08A /* MockValues.swift in Sources */,
 				5D7AB89C256CBDF800BBE08A /* SceneDelegate.swift in Sources */,
 				5D7AB8C6256CC31800BBE08A /* Storyboarded.swift in Sources */,
+				5D7AB8E1256D146A00BBE08A /* DashboardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,6 +517,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 847YLVY9X7;
 				INFOPLIST_FILE = RewardsApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -439,6 +536,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 847YLVY9X7;
 				INFOPLIST_FILE = RewardsApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
